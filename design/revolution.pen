@@ -555,6 +555,276 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "r4M4F",
+      "x": 1632,
+      "y": 0,
+      "name": "ArticlePage",
+      "width": 1440,
+      "height": 2400,
+      "fill": "#E2D9C8",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QmdeL",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#E2D9C8",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "a9PMc",
+              "name": "Logo",
+              "fill": "#252525",
+              "content": "信中阁记",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "n2ly4",
+              "name": "NavLinks",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wLuMG",
+                  "name": "navHome",
+                  "fill": "#252525",
+                  "content": "首页",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "81DQE",
+                  "name": "navArchives",
+                  "fill": "#2E4E7E",
+                  "content": "旧档",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "irgef",
+                  "name": "navAbout",
+                  "fill": "#2E4E7E",
+                  "content": "关于",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r4CRm",
+                  "name": "navSearch",
+                  "fill": "#2E4E7E",
+                  "content": "查询",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "akLpH",
+          "name": "MainContent",
+          "width": 1000,
+          "fill": "#F0E6D2",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ovvMr",
+              "name": "Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M9i8o",
+                  "name": "title",
+                  "fill": "#252525",
+                  "content": "北平之秋：银杏叶落时",
+                  "textAlign": "center",
+                  "fontFamily": "Ma Shan Zheng",
+                  "fontSize": 56,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "V8TnR",
+                  "name": "Meta",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E97uW",
+                      "name": "date",
+                      "fill": "#4B5C42",
+                      "content": "民国十二年 · 秋",
+                      "fontFamily": "Noto Serif SC",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aI5zM",
+                      "name": "author",
+                      "fill": "#2E4E7E",
+                      "content": "撰文：信中阁主",
+                      "fontFamily": "Noto Serif SC",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zBGj0",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 2,
+              "fill": "#B5A47D"
+            },
+            {
+              "type": "frame",
+              "id": "qAScK",
+              "name": "ArticleBody",
+              "width": 840,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HGpHi",
+                  "name": "p1",
+                  "fill": "#252525",
+                  "content": "北平的秋天，是极有味道的。不似南方的温吞，这里的秋来得干脆、明亮。\n当第一片银杏叶在西山的风中转黄，整个古城便仿佛在一夜之间被点亮了。",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vggda",
+                  "name": "p2",
+                  "fill": "#252525",
+                  "content": "我常在午后，独自踱步于国子监的红墙之外。阳光透过古树斑驳地洒在青砖地上，\n那光影的跳动，正如这大时代的脉搏，有时沉稳，有时激越。",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "6RfIO",
+                  "name": "ArticleImage",
+                  "width": "fill_container",
+                  "height": 500,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1770110190944.png",
+                    "mode": "fill"
+                  },
+                  "padding": 8
+                },
+                {
+                  "type": "text",
+                  "id": "uHXgQ",
+                  "name": "p3",
+                  "fill": "#252525",
+                  "content": "在这新旧交替的时节，人们行色匆匆。街头的洋车与骆驼队并行，\n远处偶尔传来新式学堂的读书声，与胡同里卖糖葫芦的吆喝声交织在一起。\n这就是北平，一种奇异而和谐的共存。",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hN1eM",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 180,
+          "fill": "#252525",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "76pOT",
+              "name": "footerLogo",
+              "fill": "#B5A47D",
+              "content": "民国文艺复兴工作室",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 28,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZcM50",
+              "name": "footerText",
+              "fill": "#B5A47D",
+              "content": "旧时风华，与君共赏。",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "DmPkX",
+              "name": "footerCopy",
+              "fill": "#6B6B6B",
+              "content": "© 民国十二年 · 申报拾遗录",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
