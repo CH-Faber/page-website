@@ -1,0 +1,530 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "a9tSi",
+      "x": 0,
+      "y": 0,
+      "name": "Homepage",
+      "width": 1440,
+      "height": 2400,
+      "fill": "#F9F6F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6857z",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#F9F6F1",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UZZAx",
+              "name": "Logo",
+              "fill": "#2C2C2C",
+              "content": "文。墨",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "8XY8Q",
+              "name": "NavLinks",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5PfIh",
+                  "name": "navHome",
+                  "fill": "#2C2C2C",
+                  "content": "首页",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gvs1d",
+                  "name": "navAbout",
+                  "fill": "#6E7B6B",
+                  "content": "文章",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "9mMDU",
+                  "name": "navBlog",
+                  "fill": "#6E7B6B",
+                  "content": "关于",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1iLk2",
+                  "name": "navContact",
+                  "fill": "#6E7B6B",
+                  "content": "搜索",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lBdXs",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 320,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "yV56r",
+              "name": "HeroTitle",
+              "fill": "#2C2C2C",
+              "content": "行到水穷处，坐看云起时",
+              "textAlign": "center",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 64,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "U1MqY",
+              "name": "HeroDesc",
+              "fill": "#6E7B6B",
+              "content": "记录生活中的禅意与思考",
+              "textAlign": "center",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "FRiFV",
+              "name": "Divider",
+              "width": 80,
+              "height": 2,
+              "fill": "#6E7B6B",
+              "cornerRadius": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "awuvT",
+          "name": "CardsSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            80,
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "aELad",
+              "name": "SectionTitle",
+              "fill": "#2C2C2C",
+              "content": "拾遗",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "xuDM8",
+              "name": "CardsGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "97LOR",
+                  "name": "ArticleCard1",
+                  "width": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "41KQO",
+                      "name": "TagRow",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bgMeK",
+                          "name": "Tag",
+                          "fill": "#6E7B6B",
+                          "cornerRadius": 20,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YKrVI",
+                              "name": "tag1Text",
+                              "fill": "#FFFFFF",
+                              "content": "悟禅",
+                              "fontFamily": "Noto Serif SC",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "BxY81",
+                          "name": "card1Date",
+                          "fill": "#8B7355",
+                          "content": "二零二四年十月",
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fdnx2",
+                      "name": "CardTitle",
+                      "fill": "#2C2C2C",
+                      "content": "山中一日",
+                      "fontFamily": "Ma Shan Zheng",
+                      "fontSize": 32,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rAekl",
+                      "name": "CardDesc",
+                      "fill": "#4A4A4A",
+                      "content": "行到水穷处，坐看云起时。悟禅，即悟人生。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qLxUg",
+                      "name": "Seal",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "#9E2A2B",
+                      "cornerRadius": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tVvGg",
+                          "name": "sealText1",
+                          "fill": "#FFFFFF",
+                          "content": "拾遗",
+                          "textAlign": "center",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ksHcL",
+                  "name": "ArticleCard2",
+                  "width": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "08DrF",
+                      "name": "TagRow",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "j4fAQ",
+                          "name": "Tag",
+                          "fill": "#A67C52",
+                          "cornerRadius": 20,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vbNZd",
+                              "name": "tag2Text",
+                              "fill": "#FFFFFF",
+                              "content": "随笔",
+                              "fontFamily": "Noto Serif SC",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Iziea",
+                          "name": "card2Date",
+                          "fill": "#8B7355",
+                          "content": "二零二四年九月",
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gzcvd",
+                      "name": "CardTitle",
+                      "fill": "#2C2C2C",
+                      "content": "茶馆小记",
+                      "fontFamily": "Ma Shan Zheng",
+                      "fontSize": 32,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "diYyJ",
+                      "name": "CardDesc",
+                      "fill": "#4A4A4A",
+                      "content": "一盏清茶，半卷诗书。听雨声滴答，品人间烟火。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3GtBQ",
+                      "name": "Seal",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "#9E2A2B",
+                      "cornerRadius": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0EcM9",
+                          "name": "sealText2",
+                          "fill": "#FFFFFF",
+                          "content": "随想",
+                          "textAlign": "center",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TtMUj",
+                  "name": "ArticleCard3",
+                  "width": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rfwcV",
+                      "name": "TagRow",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dn2cX",
+                          "name": "Tag",
+                          "fill": "#2C2C2C",
+                          "cornerRadius": 20,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K5OgX",
+                              "name": "tag3Text",
+                              "fill": "#FFFFFF",
+                              "content": "纪行",
+                              "fontFamily": "Noto Serif SC",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "GoLr9",
+                          "name": "card3Date",
+                          "fill": "#8B7355",
+                          "content": "二零二四年八月",
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mNU8q",
+                      "name": "CardTitle",
+                      "fill": "#2C2C2C",
+                      "content": "林间听蝉",
+                      "fontFamily": "Ma Shan Zheng",
+                      "fontSize": 32,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B6ZB6",
+                      "name": "CardDesc",
+                      "fill": "#4A4A4A",
+                      "content": "深林人不知，明月来相照。林间的清音，是岁月的馈赠。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BMJTs",
+                      "name": "Seal",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "#9E2A2B",
+                      "cornerRadius": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "goqtd",
+                          "name": "sealText3",
+                          "fill": "#FFFFFF",
+                          "content": "纪行",
+                          "textAlign": "center",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XRQ1k",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 160,
+          "fill": "#F0EBE3",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2O5oK",
+              "name": "footerLogo",
+              "fill": "#2C2C2C",
+              "content": "文墨笔耕",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 28,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "0TMDl",
+              "name": "footerText",
+              "fill": "#6E7B6B",
+              "content": "一盏清茶，半卷诗书。",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "FdvWG",
+              "name": "footerCopy",
+              "fill": "#A67C52",
+              "content": "© 2024 文。墨 | 拾遗录",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
