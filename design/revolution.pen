@@ -558,6 +558,422 @@
     },
     {
       "type": "frame",
+      "id": "vHJ1e",
+      "x": 37,
+      "y": 2498,
+      "name": "Bulletin Board Page",
+      "width": 1440,
+      "height": 1600,
+      "fill": "#E2D9C8",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Td6HC",
+          "name": "nav",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#E2D9C8",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jK6UB",
+              "name": "Logo",
+              "fill": "#252525",
+              "content": "信中阁记",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "kGXGa",
+              "name": "NavLinks",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MAW6u",
+                  "name": "navHome",
+                  "fill": "#252525",
+                  "content": "首页",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "pLaD9",
+                  "name": "navArchives",
+                  "fill": "#2E4E7E",
+                  "content": "旧档",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "448zc",
+                  "name": "navAbout",
+                  "fill": "#2E4E7E",
+                  "content": "关于",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "2D4qm",
+                  "name": "navSearch",
+                  "fill": "#2E4E7E",
+                  "content": "查询",
+                  "fontFamily": "Noto Serif SC",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z50cS",
+          "name": "Main Section",
+          "width": "fill_container",
+          "height": 1200,
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ntVS2",
+              "name": "pageTitle",
+              "fill": "#252525",
+              "content": "同仁传声 · 布告栏",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 64,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "EBqaM",
+              "name": "Wooden Board",
+              "width": 1200,
+              "height": 900,
+              "fill": "#3E2723",
+              "cornerRadius": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CxS2N",
+                  "name": "Surface",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#2C241F",
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sbkaw",
+                      "x": 100,
+                      "y": 80,
+                      "name": "Manifesto",
+                      "width": 400,
+                      "height": 500,
+                      "fill": "#F0E6D2",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mdo7B",
+                          "name": "p1_title",
+                          "fill": "#B71C1C",
+                          "content": "敬告青年",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 42,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c88lq",
+                          "name": "p1_text",
+                          "fill": "#252525",
+                          "content": "一、自主的而非奴隶的\n二、进步的而非保守的\n三、进取的而非退隐的\n四、世界的而非锁国的",
+                          "lineHeight": 1.8,
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HRLTu",
+                      "x": 292,
+                      "y": 70,
+                      "name": "Pin1",
+                      "width": 16,
+                      "height": 16,
+                      "fill": "#A1887F",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ifdu7",
+                      "x": 450,
+                      "y": 150,
+                      "name": "Notice",
+                      "rotation": 2,
+                      "width": 280,
+                      "height": 340,
+                      "fill": "#FFF9C4",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IA9Mk",
+                          "name": "p2_head",
+                          "fill": "#252525",
+                          "content": "读书会通知",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XWuXl",
+                          "name": "p2_body",
+                          "fill": "#455A64",
+                          "content": "兹定于本周五晚，于红楼二层举办《呐喊》研读会。望同仁准时参加。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lIaTj",
+                      "x": 582,
+                      "y": 140,
+                      "name": "Pin2",
+                      "width": 16,
+                      "height": 16,
+                      "fill": "#B71C1C",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HtAK7",
+                      "x": 700,
+                      "y": 60,
+                      "name": "Old Photo",
+                      "width": 320,
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770135295682.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LeLKt",
+                      "x": 810,
+                      "y": 50,
+                      "name": "Tape1",
+                      "rotation": -5,
+                      "width": 100,
+                      "height": 30,
+                      "fill": "#E2D9C8AA"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZAZPD",
+                      "x": 850,
+                      "y": 400,
+                      "name": "Torn Page",
+                      "rotation": -3.0000000000000004,
+                      "width": 220,
+                      "height": 280,
+                      "fill": "#E0E0E0",
+                      "layout": "vertical",
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fVJvG",
+                          "name": "p3_text",
+                          "fill": "#000000",
+                          "content": "自由论",
+                          "fontFamily": "Ma Shan Zheng",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KLNKp",
+                          "name": "p3_sub",
+                          "fill": "#D50000",
+                          "content": "不自由，毋宁死。",
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TJQEQ",
+                      "x": 952,
+                      "y": 390,
+                      "name": "Pin3",
+                      "width": 16,
+                      "height": 16,
+                      "fill": "#5D4037",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C7qC7",
+                      "x": 250,
+                      "y": 550,
+                      "name": "Small Note",
+                      "rotation": 4,
+                      "width": 180,
+                      "height": 140,
+                      "fill": "#DCEDC8",
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LYb6d",
+                          "name": "p4_text",
+                          "fill": "#1B5E20",
+                          "content": "寻书启事\n遗失《新潮》一册",
+                          "fontFamily": "Noto Serif SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OH9n3",
+                      "x": 332,
+                      "y": 540,
+                      "name": "Pin4",
+                      "width": 16,
+                      "height": 16,
+                      "fill": "#F9A825",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h8sZ7",
+                      "x": 550,
+                      "y": 480,
+                      "name": "Street Photo",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770135305852.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HJNRd",
+                      "x": 660,
+                      "y": 474,
+                      "name": "Clip",
+                      "width": 40,
+                      "height": 12,
+                      "fill": "#607D8B"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zay6C",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 180,
+          "fill": "#252525",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gu8rK",
+              "name": "footerLogo",
+              "fill": "#B5A47D",
+              "content": "民国文艺复兴工作室",
+              "fontFamily": "Ma Shan Zheng",
+              "fontSize": 28,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "K9tTM",
+              "name": "footerText",
+              "fill": "#B5A47D",
+              "content": "旧时风华，与君共赏。",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "1CS7t",
+              "name": "footerCopy",
+              "fill": "#6B6B6B",
+              "content": "© 民国十二年 · 申报拾遗录",
+              "fontFamily": "Noto Serif SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
       "id": "r4M4F",
       "x": 1632,
       "y": 0,
